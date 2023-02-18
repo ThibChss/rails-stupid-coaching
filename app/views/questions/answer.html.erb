@@ -1,0 +1,15 @@
+<div class="container">
+  <h1 class="title">Stupid coach answer</h1>
+  <br>
+  <div class="card my-5 px-5 anwser-card">
+    <p><%= @question %></p>
+    <p><strong>- You</strong></p>
+  </div>
+  <div class="card my-5 px-5 anwser-card" id="coach-answer">
+    <p><%= @answer %></p>
+    <p><strong>- Stupid coach</strong></p>
+  </div>
+  <br>
+  <br>
+  <%= link_to 'Back to questions!', ask_path, { class: 'btn btn-success' }%>
+</div>
